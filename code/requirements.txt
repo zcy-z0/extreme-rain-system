@@ -11,4 +11,5 @@ plotly==5.18.0
 scikit-learn==1.3.2
 python-dotenv==1.0.0
 # GDAL相关（适配你的gdal_py38环境）
-gdal==3.6.4
+pygdal==3.6.4.10
+
