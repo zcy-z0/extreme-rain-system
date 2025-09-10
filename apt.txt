@@ -1,1 +1,3 @@
-
+gdal-bin
+libgdal-dev
+python3-distutils  # 解决 distutils 缺失问题
