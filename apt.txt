@@ -1,10 +1,1 @@
-# 用于netCDF4的系统依赖
-libnetcdf-dev
-libhdf5-dev
-# 用于GDAL的系统依赖（版本与Python库版本匹配，选3.4.x系列兼容）
-libgdal-dev=3.4.1+dfsg-1build4
-libproj-dev=8.2.1-1
-libgeos-dev=3.10.2-1
-# 通用编译工具（确保源码能编译）
-build-essential
-python3-dev
+
