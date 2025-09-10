@@ -1,9 +1,9 @@
-# 适配Python 3.13的核心依赖（去掉所有冗余库）
-numpy==1.26.4  # 1.26.x兼容Python 3.13，且无需distutils
-pandas==2.1.4
+# 适配 Python 3.12 的核心依赖（全是经过验证的稳定版）
+numpy==1.26.4  # 适配 3.12，无需编译，直接安装
+pandas==2.2.2  # 2.2.x 系列专门适配 Python 3.12，解决编译错误
 xarray==2024.3.0
 netCDF4==1.6.5
-streamlit==1.32.2  # 较新版本适配Cloud环境
+streamlit==1.32.2  # 稳定版，兼容 3.12
 matplotlib==3.8.4
-scikit-learn==1.4.2
+scikit-learn==1.4.2  # 1.4.2 适配 3.12，且无需依赖高版本 numpy
 python-dotenv==1.0.1
